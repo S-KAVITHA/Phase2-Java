@@ -54,6 +54,9 @@ public class SessionServlet2 extends HttpServlet {
 		      session.invalidate();
 		      pwriter.print("<br>");
 		      
+		      pwriter.print("Welcome to Servlet2!!!!");
+		      pwriter.print("<br>");
+		      
 		      pwriter.print("Name     : "+myName);
 		      pwriter.print("<br>");
 		      
