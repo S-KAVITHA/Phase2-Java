@@ -241,4 +241,21 @@
     <servlet-name>sessionserv2</servlet-name>
     <url-pattern>/Register1</url-pattern>
   </servlet-mapping>
+  
+  
+  <servlet>  
+<servlet-name>implicitobj</servlet-name>  
+<jsp-file>/ExImplicitobj.jsp</jsp-file>  
+  
+<init-param>  
+<param-name>dname</param-name>  
+<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+</init-param>  
+  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>implicitobj</servlet-name>  
+<url-pattern>/ExImplicitobj</url-pattern>  
+</servlet-mapping>  
 </web-app>
