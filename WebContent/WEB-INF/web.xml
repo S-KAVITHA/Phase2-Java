@@ -251,11 +251,44 @@
 <param-name>dname</param-name>  
 <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
 </init-param>  
-  
-</servlet>  
+  </servlet>  
   
 <servlet-mapping>  
 <servlet-name>implicitobj</servlet-name>  
 <url-pattern>/ExImplicitobj</url-pattern>  
 </servlet-mapping>  
+
+
+
+<servlet>
+<servlet-name>Login11</servlet-name>
+<servlet-class>advanced.java.program.RequestDispatch</servlet-class>
+</servlet>
+
+
+<servlet>
+<servlet-name>WelcomeServlet</servlet-name>
+<servlet-class>advanced.java.program.WelcomeRD</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Login11</servlet-name>
+<url-pattern>/servlet11</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+<servlet-name>WelcomeServlet</servlet-name>
+<url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>prodserv</servlet-name>
+    <servlet-class>advanced.java.program.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>prodserv</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
 </web-app>
