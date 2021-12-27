@@ -291,4 +291,25 @@
     <servlet-name>prodserv</servlet-name>
     <url-pattern>/product</url-pattern>
   </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>Prodcoll</servlet-name>
+    <servlet-class>advanced.java.program.StoreProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Prodcoll</servlet-name>
+    <url-pattern>/productcollect</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Prodcoll1</servlet-name>
+    <servlet-class>advanced.java.program.ProductDisplay</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Prodcoll1</servlet-name>
+    <url-pattern>/Productdisp</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>

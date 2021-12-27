@@ -10,7 +10,7 @@
 <%
         session.invalidate();
 %>
-<b>Your session has terminated.</b><br>
-<a href="sessionhandling.jsp">Login again</a>
+Your session has terminated.<br><br><br>
+<h3><a href="sessionhandling.jsp">Login again</a></h3>
 </body>
 </html>

@@ -10,7 +10,7 @@
 
 <%
 System.out.println("This is my java page");
-out.println("This is my java page");
+out.println("This is the java page");
 %>
 </body>
 </html>
